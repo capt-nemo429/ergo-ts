@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "es6",
-    "lib": ["es6", "esnext"],
+    "lib": ["es6", "esnext", "DOM"],
     "module": "commonjs",
     "moduleResolution": "node",
     "sourceMap": true,
@@ -12,7 +12,5 @@
     "typeRoots": ["node_modules/@types"]
   },
   "include": ["src"],
-  "exclude": [
-    "node_modules"
-  ]
+  "exclude": ["node_modules"]
 }

@@ -34,9 +34,9 @@
   "homepage": "https://github.com/coinbarn/ergo-ts",
   "dependencies": {
     "@root/encoding": "^1.0.1",
-    "array.prototype.flat": "^1.2.2",
-    "axios": "0.19.0",
-    "blakejs": "^1.1.0",
+    "array.prototype.flat": "^1.2.5",
+    "axios": "0.26.1",
+    "blakejs": "^1.1.1",
     "bn.js": "^4.11.8",
     "bs58": "^4.0.1",
     "elliptic": "^6.4.1",
@@ -60,15 +60,15 @@
     "babel-loader": "^8.0.6",
     "codecov": "^3.5.0",
     "core-js": "^3.1.4",
-    "eslint": "^6.6.0",
+    "eslint": "^6.8.0",
     "jest": "^24.9.0",
     "node-loader": "^0.6.0",
     "prettier": "^1.19.1",
     "ts-jest": "^24.1.0",
-    "ts-loader": "^6.2.1",
+    "ts-loader": "^6.2.2",
     "tslint": "^5.20.1",
     "tslint-config-prettier": "^1.18.0",
-    "typescript": "^3.7.2"
+    "typescript": "^3.9.10"
   },
   "majestic": {
     "jestScriptPath": "../node_modules/jest/bin/jest.js",
