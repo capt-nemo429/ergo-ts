@@ -1,9 +1,12 @@
 {
-  "name": "@coinbarn/ergo-ts",
-  "version": "0.3.0",
-  "description": "The library for Ergo platform written in TypeScript and compiled to JavaScript",
+  "name": "@nautilus-wallet/ergo-ts",
+  "version": "0.3.3",
+  "description": "A fork of @coinbarn/ergo-ts with updated packages",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "prepare": "yarn build",
     "prepublishOnly": "npm test && npm run lint",
@@ -36,7 +39,7 @@
     "@root/encoding": "^1.0.1",
     "array.prototype.flat": "^1.2.5",
     "axios": "0.26.1",
-    "blakejs": "^1.1.1",
+    "blakejs": "^1.2.1",
     "bn.js": "^4.11.8",
     "bs58": "^4.0.1",
     "elliptic": "^6.4.1",
